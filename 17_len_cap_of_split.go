@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 )
 
 func splitShow() {
@@ -44,7 +45,7 @@ func nilOrNo(s []int) {
 	}
 }
 
-func makeSplit()  {
+func makeSplit() {
 	// make 函数会分配一个元素为零值的数组并返回一个引用了它的切片
 	// make([]类型, 长度, 容量)
 	a := make([]int, 5)
@@ -64,6 +65,45 @@ func makeSplit()  {
 	printSlice(d)
 
 }
+
+func sliceOfSlice() {
+	board := [][]string{
+		[]string{"_", "_", "_",},
+		[]string{"_", "_", "_",},
+		[]string{"_", "_", "_",},
+	}
+	board[0][0] = "X"
+	board[2][2] = "O"
+	board[1][2] = "O"
+	board[1][0] = "X"
+	board[0][2] = "O"
+
+	for i := 0; i < len(board); i++ {
+		fmt.Printf("%s\n", strings.Join(board[i], " "))
+	}
+}
+
+func appendMethod() {
+	var temp []int
+	temp = append(temp, 0)
+	printSlice(temp)
+	temp = append(temp, 1, 2, 3, 4)
+	printSlice(temp)
+}
+
+func forRange() {
+	temp := []int{1, 2, 4, 8, 16, 32, 64, 128,}
+
+	// 可以将下标或值赋予 _ 来忽略它。
+	// for i, _ := range pow
+	// for _, value := range pow
+	// 若你只需要索引，忽略第二个变量即可
+	//for i := range pow
+	for i, v := range temp {
+		fmt.Printf("2**%d = %d\n", i, v)
+	}
+}
+
 func main() {
 	// 切片
 	splitShow()
@@ -72,4 +112,12 @@ func main() {
 	// make 函数会分配一个元素为零值的数组并返回一个引用了它的切片：
 	makeSplit()
 
+	// 切片的切片
+	sliceOfSlice()
+
+	// append 方法
+	appendMethod()
+
+	// 对数组使用for 循环
+	forRange()
 }

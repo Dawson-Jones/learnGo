@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Printf("Now you have %f problems.\n", math.Sqrt(9));
+	fmt.Printf("Now you have %.2f problems.\n", math.Sqrt(9))
 }

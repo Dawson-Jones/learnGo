@@ -20,6 +20,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XnWApk3HT6HDL9GaCEAmAogm1t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,7 +35,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Go Build.go build 17_len_cap_of_split.go">
+  <component name="RunManager" selected="Go Build.go build 2_导入包.go">
     <configuration name="go build 15_struct.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -43,26 +44,44 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 16_array.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 18_map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/16_array.go" />
+      <filePath value="$PROJECT_DIR$/18_map.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 17_len_cap_of_split.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 19_Function references and anonymous functions.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/17_len_cap_of_split.go" />
+      <filePath value="$PROJECT_DIR$/19_Function references and anonymous functions.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 2_导入包.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/2_导入包.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/test.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build 17_len_cap_of_split.go" />
-        <item itemvalue="Go Build.go build 16_array.go" />
+        <item itemvalue="Go Build.go build 2_导入包.go" />
+        <item itemvalue="Go Build.go build test.go" />
+        <item itemvalue="Go Build.go build 19_Function references and anonymous functions.go" />
+        <item itemvalue="Go Build.go build 18_map.go" />
         <item itemvalue="Go Build.go build 15_struct.go" />
       </list>
     </recent_temporary>
@@ -81,29 +100,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1581707631516">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1581788549987">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581707631516" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1581707631516">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581788549987" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1581788549987">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1581707631516" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1581707631516">
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1581788549987" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1581788549987">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1581707631516" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1581707631516">
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1581788549987" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1581788549987">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1581707631516" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1581788549987" />
     <state x="95" y="23" key="SettingsEditor" timestamp="1581694228147">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="95" y="23" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1581694228147" />
-    <state x="475" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581707732712">
+    <state x="475" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581788580947">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="475" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1581707732712" />
+    <state x="475" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1581788580947" />
   </component>
 </project>
