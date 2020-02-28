@@ -19,7 +19,7 @@ func wordCount(s string) map[string]int {
 	return m
 }
 
-// 斐波那契数列
+// 斐波那契数列, 闭包
 func fibonacci() func() int {
 	pre := 0
 	after := 1
@@ -30,6 +30,9 @@ func fibonacci() func() int {
 		return current
 	}
 }
+
+
+
 func main() {
 	m := wordCount("call me lover boy")
 	fmt.Println(m)

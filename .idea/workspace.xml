@@ -18,6 +18,7 @@
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1XnWApk3HT6HDL9GaCEAmAogm1t" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -30,59 +31,71 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/go_advance_stage" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
-  <component name="RunManager" selected="Go Build.go build 2_导入包.go">
-    <configuration name="go build 15_struct.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\95736\Desktop\My_project\Go\go_advance_stage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\95736\Desktop\My_project\Go\go_advance_stage" />
+      <recent name="C:\Users\95736\Desktop\My_project\Go\about_time\about_time" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build 12_reflect.go">
+    <configuration name="go build 09_select.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/15_struct.go" />
+      <filePath value="$PROJECT_DIR$/go_advance_stage/09_select.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 18_map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 10_default_select.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/18_map.go" />
+      <filePath value="$PROJECT_DIR$/go_advance_stage/10_default_select.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 19_Function references and anonymous functions.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 11_reflect.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/19_Function references and anonymous functions.go" />
+      <filePath value="$PROJECT_DIR$/go_advance_stage/11_reflect.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 2_导入包.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 11_timer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/2_导入包.go" />
+      <filePath value="$PROJECT_DIR$/11_timer.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 12_reflect.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/test.go" />
+      <filePath value="$PROJECT_DIR$/go_advance_stage/12_reflect.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build 2_导入包.go" />
-        <item itemvalue="Go Build.go build test.go" />
-        <item itemvalue="Go Build.go build 19_Function references and anonymous functions.go" />
-        <item itemvalue="Go Build.go build 18_map.go" />
-        <item itemvalue="Go Build.go build 15_struct.go" />
+        <item itemvalue="Go Build.go build 12_reflect.go" />
+        <item itemvalue="Go Build.go build 11_reflect.go" />
+        <item itemvalue="Go Build.go build 11_timer.go" />
+        <item itemvalue="Go Build.go build 10_default_select.go" />
+        <item itemvalue="Go Build.go build 09_select.go" />
       </list>
     </recent_temporary>
   </component>
@@ -104,36 +117,70 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1581788750040">
+    <state x="391" y="4" key="#go_build_01_time.go" timestamp="1582225884353">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581788750040" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1581788750040">
+    <state x="391" y="4" key="#go_build_01_time.go/0.0.1366.738@0.0.1366.738" timestamp="1582225884353" />
+    <state x="391" y="4" key="#go_build_main.go" timestamp="1582210953615">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1581788750040" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1581788750040">
+    <state x="391" y="4" key="#go_build_main.go/0.0.1366.738@0.0.1366.738" timestamp="1582210953615" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1582206566033">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1581788750040" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1581788750040">
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1582206566033" />
+    <state width="889" height="166" key="GridCell.Tab.0.bottom" timestamp="1582908179021">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1581788750040" />
-    <state x="95" y="23" key="SettingsEditor" timestamp="1581694228147">
+    <state width="889" height="166" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582908179021" />
+    <state width="889" height="166" key="GridCell.Tab.0.center" timestamp="1582908179020">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="95" y="23" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1581694228147" />
-    <state x="475" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581788580947">
+    <state width="889" height="166" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1582908179020" />
+    <state width="889" height="166" key="GridCell.Tab.0.left" timestamp="1582908179020">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="475" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1581788580947" />
+    <state width="889" height="166" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1582908179020" />
+    <state width="889" height="166" key="GridCell.Tab.0.right" timestamp="1582908179020">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="889" height="166" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1582908179020" />
+    <state width="1323" height="217" key="GridCell.Tab.1.bottom" timestamp="1582298733221">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582298733221" />
+    <state width="1323" height="217" key="GridCell.Tab.1.center" timestamp="1582298733221">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1582298733221" />
+    <state width="1323" height="217" key="GridCell.Tab.1.left" timestamp="1582298733221">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1582298733221" />
+    <state width="1323" height="217" key="GridCell.Tab.1.right" timestamp="1582298733221">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="217" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1582298733221" />
+    <state x="95" y="23" key="SettingsEditor" timestamp="1582912041900">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="95" y="23" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1582912041900" />
+    <state x="475" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582912118395">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="475" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1582912118395" />
+    <state x="0" y="0" width="647" height="738" key="find.popup" timestamp="1581967369866">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="0" y="0" width="647" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1581967369866" />
   </component>
 </project>
