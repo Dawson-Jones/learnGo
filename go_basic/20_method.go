@@ -18,6 +18,12 @@ type Structure struct {
 func (v Structure) Abs() float64 {
 	return math.Sqrt(v.X*v.X + v.Y*v.Y)
 }
+// ^
+// |  -- 比较一下两者的区别
+// v
+func AbsFunc(v Structure) float64 {
+	return math.Sqrt(v.X*v.X + v.Y*v.Y)
+}
 
 func (v *Structure) Scale(f float64) {
 	v.X *= f
@@ -34,9 +40,7 @@ func (v Structure) Compute() Structure {
 	return v
 }
 
-func AbsFunc(v Structure) float64 {
-	return math.Sqrt(v.X*v.X + v.Y*v.Y)
-}
+
 
 func main() {
 	// 方法

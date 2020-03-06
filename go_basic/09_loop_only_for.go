@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	for1()
 	forIsWhile()
-	//loopForever()
+	loopForever()
 
 }
 
@@ -16,17 +16,7 @@ func for1() {
 		sum += i
 	}
 	fmt.Println(sum)
-
 }
-
-//func for2() {
-//	sum := 1
-//	for ; sum < 1000; {
-//		sum += sum
-//	}
-//	fmt.Println(sum)
-//
-//}
 
 func forIsWhile() {
 	sum := 1

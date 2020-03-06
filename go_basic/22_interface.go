@@ -11,16 +11,16 @@ type Abser interface {
 
 type myFloat float64  // type 定义的类型是一个全新的类型, 而C中typedef定义的是已经存在的类型
 
+type Vertex struct {
+	X, Y float64
+}
+
 func (f myFloat) Abs() float64 {
 	if f < 0 {
 		return float64(-f)
 	}
 	return float64(f)
 
-}
-
-type Vertex struct {
-	X, Y float64
 }
 
 func (v *Vertex) Abs() float64 {

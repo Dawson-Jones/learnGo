@@ -48,8 +48,8 @@ func main() {
 	a.test1()  // A 接口的实例只能实现A接口的方法
 	var b B = cat
 	b.test2()
-	//var c C  = cat
-	//c.test1()
-	//c.test2()
-	//c.test3()
+	var c C  = cat
+	c.test1()
+	c.test2()
+	c.test3()
 }

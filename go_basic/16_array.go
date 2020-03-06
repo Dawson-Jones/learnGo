@@ -31,7 +31,7 @@ func spliceOperation() {
 	newPrimes := primes[1:4]
 	fmt.Println(newPrimes)
 
-	//char *names[4] = {"John", "Paul", "George", "Ringo"}; // 分配了四个 char 类型的指针
+	//C | char *names[4] = {"John", "Paul", "George", "Ringo"}; // 分配了四个 char 类型的指针
 	names := [4]string{
 		"John", "Paul", "George", "Ringo",
 	}

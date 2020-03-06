@@ -2,6 +2,19 @@ package main
 
 import "fmt"
 
+// 定义接口
+type USB interface {
+	start()
+	end()
+}
+
+type Mouse struct {
+	name string
+}
+type FlashDisk struct {
+	name string
+}
+
 func main() {
 	/*
 		接口:
@@ -31,18 +44,10 @@ func main() {
 	//fmt.Println(usb.name)  不能做到, 因为接口对象不能访问实现类中的属性
 }
 
-// 定义接口
-type USB interface {
-	start()
-	end()
-}
-
-type Mouse struct {
-	name string
-}
-
-type FlashDisk struct {
-	name string
+// 测试函数
+func testInterface(usb USB)  {
+	usb.start()
+	usb.end()
 }
 
 func (m Mouse) start() {
@@ -65,9 +70,4 @@ func (f FlashDisk) deleteData()  {
 	fmt.Println(f.name, "在删除数据...")
 }
 
-// 测试函数
-func testInterface(usb USB)  {
-	usb.start()
-	usb.end()
 
-}

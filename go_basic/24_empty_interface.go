@@ -7,7 +7,7 @@ import "fmt"
 
 空接口可保存任何类型的值。（因为每个类型都至少实现了零个方法。）
 
-空接口被用来处理未知类型的值。例如，fmt.Print 可接受类型为 interface{} 的任意数量的参数。
+空接口被用来处理未知类型的值。例如，fmt.Println 可接受类型为 interface{} 的任意数量的参数。
  */
 
 type E interface {

@@ -34,6 +34,7 @@ func mapAbout() {
 	// 通过双赋值检测某个键是否存在, 不存在elem是该元素类型的零值 且 ok 为 false
 	elem, ok := m["Bell Labs"]
 	fmt.Println("value: ", elem, "Present: ", ok)
+	// value:  {0 0} Present:  false
 
 }
 
@@ -56,5 +57,5 @@ func mapLiterals() {
 
 func main() {
 	mapAbout()
-	mapLiterals()
+	//mapLiterals()
 }

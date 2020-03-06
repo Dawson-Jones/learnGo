@@ -13,24 +13,24 @@ func splitShow() {
 	s = s[:0]
 	printSlice(s)
 	// length 4, capacity 6
-	s = s[:4]
+	s = s[:4]  // [2 3 5 7]
 	printSlice(s)
 	// length 2, capacity 4
-	s = s[2:]
+	s = s[2:]  // [5 7]
 	printSlice(s)
 	// 拓展了长度
-	s = s[:4]
+	s = s[:4]  // [5 7 11 13]
 	printSlice(s)
 
 	// 切片的零值是 nil, nil 切片的长度和容量为 0 且没有底层数组。
 	s = s[4:]
 	fmt.Println("s: ")
 	printSlice(s)
-	nilOrNo(s)
+	nilOrNo(s)  // no
 	var s2 []int
 	fmt.Println("s2: ")
 	printSlice(s)
-	nilOrNo(s2)
+	nilOrNo(s2)  // yes
 }
 
 func makeSplit() {
@@ -38,11 +38,11 @@ func makeSplit() {
 	// make([]类型, 长度, 容量)
 	a := make([]int, 5)
 	fmt.Println("a: ")
-	printSlice(a)
+	printSlice(a)  // len=5 cap=5 [0 0 0 0 0]
 
 	b := make([]int, 0, 5)
 	fmt.Println("b: ")
-	printSlice(b)
+	printSlice(b)  // len=0 cap=5 []
 
 	c := b[:2]
 	fmt.Println("c: ")
@@ -106,17 +106,17 @@ func forRange() {
 
 func main() {
 	// 切片
-	splitShow()
+	//splitShow()
 
 	// 用 make 切片
 	// make 函数会分配一个元素为零值的数组并返回一个引用了它的切片：
-	makeSplit()
+	//makeSplit()
 
 	// 切片的切片
-	sliceOfSlice()
+	//sliceOfSlice()
 
 	// append 方法
-	appendMethod()
+	//appendMethod()
 
 	// 对数组使用for 循环
 	forRange()

@@ -46,7 +46,7 @@ func example()  {
 func main() {
 	//seeDifferent()
 	//aSimpleEg()
-	//example()
+	example()
 
 }
 

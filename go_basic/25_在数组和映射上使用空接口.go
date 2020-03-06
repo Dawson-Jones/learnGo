@@ -19,7 +19,7 @@ func main() {
 		age:  38,
 	}
 	map1["friend"] = ergou
-	fmt.Println(map1)
+	fmt.Println("map1:", map1)
 
 	// 数组
 	array1 := make([]interface{}, 0, 10)
