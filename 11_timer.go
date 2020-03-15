@@ -31,9 +31,8 @@ func timerAfter()  {
 
 }
 func main() {
-	//useTimer()
-	// timer stop
-	//timerStop()
+	useTimer()
+	timerStop()
 	// timer after 直接返回就是通道, 就是newTimer.C
 	timerAfter()
 }

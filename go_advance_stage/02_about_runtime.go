@@ -16,7 +16,7 @@ func init() {
 
 func goroutine1() {
 	defer fmt.Println("goroutine1 defer...")
-	runtime.Goexit()
+	//runtime.Goexit()
 	for i := 0; i < 5; i++ {
 		fmt.Println("goroutine1:", i)
 	}

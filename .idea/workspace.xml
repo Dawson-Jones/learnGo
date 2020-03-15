@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7130fec2-a24f-4008-95ac-8d45bd7dc752" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode/01-06_compress_string.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/121_best_time_for_stock.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/131_分割回文串.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/140_wordBreak_ii.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/322_coin_change.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/leverOrder.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/maxNumOfSlideWindow.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/memory_recursion.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_advance_stage/08_bufchan.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_advance_stage/08_bufchan.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go_basic/09_loop_only_for.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_basic/09_loop_only_for.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11_timer.go" beforeDir="false" afterPath="$PROJECT_DIR$/11_timer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_advance_stage/02_about_runtime.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_advance_stage/02_about_runtime.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,54 +60,54 @@
       <recent name="C:\Users\95736\Desktop\My_project\Go\about_time\about_time" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build 09_select.go">
-    <configuration name="go build 08_bufchan.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build 01-06_compress_string.go">
+    <configuration name="go build 01-06_compress_string.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go_advance_stage/08_bufchan.go" />
+      <filePath value="$PROJECT_DIR$/leetcode/01-06_compress_string.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 09_select.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 02_about_runtime.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go_advance_stage/09_select.go" />
+      <filePath value="$PROJECT_DIR$/go_advance_stage/02_about_runtime.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 10_default_select.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 06_chanel_learn.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go_advance_stage/10_default_select.go" />
+      <filePath value="$PROJECT_DIR$/go_advance_stage/06_chanel_learn.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 11_reflect.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 11_timer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go_advance_stage/11_reflect.go" />
+      <filePath value="$PROJECT_DIR$/11_timer.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build 12_reflect.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build 140_wordBreak_ii.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/go_advance_stage/12_reflect.go" />
+      <filePath value="$PROJECT_DIR$/leetcode/140_wordBreak_ii.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build 09_select.go" />
-        <item itemvalue="Go Build.go build 08_bufchan.go" />
-        <item itemvalue="Go Build.go build 10_default_select.go" />
-        <item itemvalue="Go Build.go build 12_reflect.go" />
-        <item itemvalue="Go Build.go build 11_reflect.go" />
+        <item itemvalue="Go Build.go build 01-06_compress_string.go" />
+        <item itemvalue="Go Build.go build 140_wordBreak_ii.go" />
+        <item itemvalue="Go Build.go build 11_timer.go" />
+        <item itemvalue="Go Build.go build 06_chanel_learn.go" />
+        <item itemvalue="Go Build.go build 02_about_runtime.go" />
       </list>
     </recent_temporary>
   </component>
@@ -134,10 +142,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="28" key="#GOROOT/0.0.1366.738@0.0.1366.738" timestamp="1582922362718" />
-    <state x="275" y="28" key="#Notifications" timestamp="1582913241688">
+    <state x="275" y="28" key="#Notifications" timestamp="1583929810293">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="28" key="#Notifications/0.0.1366.738@0.0.1366.738" timestamp="1582913241688" />
+    <state x="275" y="28" key="#Notifications/0.0.1366.738@0.0.1366.738" timestamp="1583929810293" />
     <state x="391" y="4" key="#go_build_01_time.go" timestamp="1582225884353">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -150,38 +158,38 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="309" y="127" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1582922657384" />
-    <state width="1323" height="244" key="GridCell.Tab.0.bottom" timestamp="1582922658457">
+    <state width="1323" height="195" key="GridCell.Tab.0.bottom" timestamp="1584291368146">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="244" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582922658457" />
-    <state width="1323" height="244" key="GridCell.Tab.0.center" timestamp="1582922658457">
+    <state width="1323" height="195" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584291368146" />
+    <state width="1323" height="195" key="GridCell.Tab.0.center" timestamp="1584291368146">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="244" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1582922658457" />
-    <state width="1323" height="244" key="GridCell.Tab.0.left" timestamp="1582922658457">
+    <state width="1323" height="195" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1584291368146" />
+    <state width="1323" height="195" key="GridCell.Tab.0.left" timestamp="1584291368146">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="244" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1582922658457" />
-    <state width="1323" height="244" key="GridCell.Tab.0.right" timestamp="1582922658457">
+    <state width="1323" height="195" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1584291368146" />
+    <state width="1323" height="195" key="GridCell.Tab.0.right" timestamp="1584291368146">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="244" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1582922658457" />
-    <state width="1323" height="217" key="GridCell.Tab.1.bottom" timestamp="1582298733221">
+    <state width="1323" height="195" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1584291368146" />
+    <state width="1323" height="198" key="GridCell.Tab.1.bottom" timestamp="1584289127036">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582298733221" />
-    <state width="1323" height="217" key="GridCell.Tab.1.center" timestamp="1582298733221">
+    <state width="1323" height="198" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584289127036" />
+    <state width="1323" height="198" key="GridCell.Tab.1.center" timestamp="1584289127036">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1582298733221" />
-    <state width="1323" height="217" key="GridCell.Tab.1.left" timestamp="1582298733221">
+    <state width="1323" height="198" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1584289127036" />
+    <state width="1323" height="198" key="GridCell.Tab.1.left" timestamp="1584289127036">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1582298733221" />
-    <state width="1323" height="217" key="GridCell.Tab.1.right" timestamp="1582298733221">
+    <state width="1323" height="198" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1584289127036" />
+    <state width="1323" height="198" key="GridCell.Tab.1.right" timestamp="1584289127036">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="217" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1582298733221" />
+    <state width="1323" height="198" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1584289127036" />
     <state x="95" y="23" key="SettingsEditor" timestamp="1582922395131">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
