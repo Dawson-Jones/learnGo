@@ -19,18 +19,18 @@ type C interface {
 }
 
 type Cat struct {
-	name string
-	age int
+	name  string
+	age   int
 	color string
 }
 
-func (c Cat) test1()  {
+func (c Cat) test1() {
 	fmt.Printf("the cat named %s\n", c.name)
 }
-func (c Cat) test2()  {
+func (c Cat) test2() {
 	fmt.Printf("the cat is %d year old\n", c.age)
 }
-func (c Cat) test3()  {
+func (c Cat) test3() {
 	fmt.Printf("woo, a %s cat\n", c.color)
 }
 
@@ -45,10 +45,10 @@ func main() {
 	cat.test3()
 	// -------------
 	var a A = cat
-	a.test1()  // A 接口的实例只能实现A接口的方法
+	a.test1() // A 接口的实例只能实现A接口的方法
 	var b B = cat
 	b.test2()
-	var c C  = cat
+	var c C = cat
 	c.test1()
 	c.test2()
 	c.test3()

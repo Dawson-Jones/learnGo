@@ -29,6 +29,12 @@ func adder() func(int) int {
 }
 
 func main() {
+	var x func(x, y int) int
+	x = func(x, y int) int {
+		return x + y
+	}
+	fmt.Println(x(2, 4))
+
 	// 类似于匿名函数
 	hypot := func(x, y float64) float64 {
 		return math.Sqrt(x*x + y*y)
