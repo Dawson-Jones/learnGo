@@ -14,7 +14,7 @@ func mapAbout() {
 	// make 函数会返回给定类型的映射，并将其初始化备用。
 	m = make(map[string]Vertex)
 	m["Bell Labs"] = Vertex{
-		X:  40.353,
+		X: 40.353,
 		Y: -74.343,
 	}
 	fmt.Println(m["Bell Labs"])

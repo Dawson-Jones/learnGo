@@ -18,6 +18,7 @@ type Structure struct {
 func (v Structure) Abs() float64 {
 	return math.Sqrt(v.X*v.X + v.Y*v.Y)
 }
+
 // ^
 // |  -- 比较一下两者的区别
 // v
@@ -39,8 +40,6 @@ func (v Structure) Compute() Structure {
 	v.Y *= 10
 	return v
 }
-
-
 
 func main() {
 	// 方法

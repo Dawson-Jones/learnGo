@@ -12,9 +12,9 @@ type myFuncFloat func(float64, float64) float64
 //func compute(fn func(float64 ,float64)float64) float64 {
 func compute(fn myFuncFloat) float64 {
 	/*
-	fn func(float64 ,float64)float64  Golang
-	double (*fn)(double, double)      C
-	 */
+		fn func(float64 ,float64)float64  Golang
+		double (*fn)(double, double)      C
+	*/
 	return fn(3, 4)
 }
 
@@ -47,7 +47,7 @@ func main() {
 
 	// 闭包 -> 返回函数的引用
 	f := adder()
-	for i := 0;i<10;i++{
-		fmt.Println(f(i))  // 做累加的时候, 会一直影响包外的 sum 值
+	for i := 0; i < 10; i++ {
+		fmt.Println(f(i)) // 做累加的时候, 会一直影响包外的 sum 值
 	}
 }

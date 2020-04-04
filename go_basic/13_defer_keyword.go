@@ -19,7 +19,7 @@ func main() {
 	}
 
 	s := make(Slice, 0)
-	defer s.Add(1).Add(2)  // defer 只会推迟最后一个函数的执行, 这里Add(1) 没有被延迟执行
+	defer s.Add(1).Add(2) // defer 只会推迟最后一个函数的执行, 这里Add(1) 没有被延迟执行
 	s.Add(3)
 	fmt.Println(s)
 	fmt.Println("done")
