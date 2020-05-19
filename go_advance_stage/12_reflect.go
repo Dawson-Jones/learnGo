@@ -18,6 +18,7 @@ func (p Person) Say(msg string, digit int) {
 func (p Person) PrintInfo() {
 	fmt.Printf("name: %s, age: %d, sex: %s\n", p.Name, p.Age, p.Sex)
 }
+
 func main() {
 	p1 := Person{"Dawson", 20, "male"}
 	fmt.Printf("p1: %v, type: %T\n", p1, p1)
@@ -36,5 +37,4 @@ func main() {
 	fmt.Println(methodValue.Kind(), methodValue.Type()) // func func(string)
 	args0 := []reflect.Value{reflect.ValueOf("world"), reflect.ValueOf(1)}
 	methodValue.Call(args0)
-
 }

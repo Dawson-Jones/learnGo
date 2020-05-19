@@ -10,7 +10,7 @@ var wg sync.WaitGroup
 func fun(s string) {
 	defer wg.Done()
 	for i := 0; i < 10; i++ {
-		fmt.Printf("func %s\n", s)
+		fmt.Printf("func %s\t%d\n", s, i)
 	}
 }
 func main() {

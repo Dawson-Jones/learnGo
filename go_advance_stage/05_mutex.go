@@ -15,6 +15,7 @@ import (
 
 var mutex sync.Mutex  // 创建锁
 var wg sync.WaitGroup
+
 func main() {
 	var ticket = 10
 	wg.Add(4)

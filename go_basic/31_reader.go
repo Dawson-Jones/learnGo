@@ -170,7 +170,6 @@ func BreakpointContinuation() {
 		total += n3
 		// 复制的总量放到临时文件中
 		_, _ = tempfp.WriteString(strconv.Itoa(total))
-		//_, _ = tempfp.WriteString(string(total))  // 这个好像是不行
 
 		//假装断电
 		//if total > 5000{
@@ -231,13 +230,13 @@ func bufWrite() {
 	}
 	fmt.Println("the nums of data writing:", n)
 	// 此时并没有写入完成, 而是写入了buf的缓冲区中
-	_ = w.Flush() // 刷新缓冲区
+	w.Flush() // 刷新缓冲区
 
-	// 当写入的数据比缓冲区大(缓冲区默认4096Byte) 一个byte能写入一个char
+	// 当写入的数据比缓冲区大(缓冲区默认 4096 Byte)
 	for i := 0; i < 1000; i++ {
 		n, err = w.WriteString(fmt.Sprintf("%d times write\n", i))
 	}
-	_ = w.Flush()
+	w.Flush()
 }
 
 func main() {

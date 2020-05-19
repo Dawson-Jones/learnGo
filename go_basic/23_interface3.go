@@ -10,16 +10,16 @@ type T struct {
 	s string
 }
 
-func describe(i I)  {
+func describe(i I) {
 	fmt.Printf("(%v, %T)\n", i, i)
 }
 
-func (t *T) M()  {
-	if t == nil{
+func (t *T) M() {
+	if t == nil {
 		fmt.Println("<nil>")
 		return
 	}
-	fmt.Println((*t).s)
+	fmt.Println(t.s)
 }
 
 func main() {

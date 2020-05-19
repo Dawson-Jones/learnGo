@@ -30,8 +30,7 @@ func main() {
 	*/
 	m := Mouse{name:"罗技"}
 	f := FlashDisk{name:"三星"}
-	testInterface(m)
-	testInterface(f)
+	testInterface(f)  // 隐式转换?
 
 	m.start()
 	m.end()

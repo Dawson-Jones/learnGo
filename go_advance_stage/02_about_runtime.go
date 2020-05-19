@@ -16,7 +16,7 @@ func init() {
 
 func goroutine1() {
 	defer fmt.Println("goroutine1 defer...")
-	//runtime.Goexit()
+	runtime.Goexit()  // 终止当前的goroutine
 	for i := 0; i < 5; i++ {
 		fmt.Println("goroutine1:", i)
 	}
@@ -40,12 +40,12 @@ func main() {
 	//go goroutine1()
 	//go goroutine2()
 
-	// goexit  终止当前的goroutine
 	go func() {
 		fmt.Println("goroutine start")
 		goroutine1()
 		fmt.Println("goroutine end") // 没有执行, 因为goroutine1终止了当前的goroutine
 	}()
+
 	time.Sleep(3 * time.Second)
 	fmt.Println("main function run over")
 

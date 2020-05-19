@@ -15,7 +15,6 @@ func aboutChanel() {
 	fmt.Printf("chanel c Type: %T\tValue: %v\n", c, c) // chanel c Type: chan int	Value: <nil>
 	c = make(chan int)
 	fmt.Printf("chanel c Type: %T\tValue: %v\n", c, c) // chanel c Type: chan int	Value: 0xc0000180c0
-
 }
 
 func communicateWithChanel1() {

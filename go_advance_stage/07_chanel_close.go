@@ -7,8 +7,8 @@ func sendData(ch chan int) {
 		ch <- i
 	}
 	close(ch)
-
 }
+
 func main() {
 	ch := make(chan int)
 	go sendData(ch)

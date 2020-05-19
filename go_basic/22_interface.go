@@ -9,7 +9,7 @@ type Abser interface {
 	Abs() float64
 }
 
-type myFloat float64 // type 定义的类型是一个全新的类型, 而C中typedef定义的是已经存在的类型
+type myFloat float64 // type 定义的类型是一个全新的类型, 而 C 中 typedef 定义的是已经存在的类型
 
 type Vertex struct {
 	X, Y float64
@@ -20,7 +20,6 @@ func (f myFloat) Abs() float64 {
 		return float64(-f)
 	}
 	return float64(f)
-
 }
 
 func (v *Vertex) Abs() float64 {
@@ -28,11 +27,10 @@ func (v *Vertex) Abs() float64 {
 }
 
 func main() {
-	var a Abser
 	f := myFloat(-math.Sqrt2)
 	v := Vertex{3, 4}
 
-	a = f
+	var a Abser = f
 	fmt.Println(a.Abs())
 	a = &v
 	fmt.Println(a.Abs())
