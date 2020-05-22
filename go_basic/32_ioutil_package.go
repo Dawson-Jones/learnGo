@@ -57,6 +57,7 @@ func recursiveReadDir(dirName string, level int) {
 		fmt.Printf("%s %s\n", s, v.Name())
 	}
 }
+
 func main() {
 	// 读取文件中的所有数据
 	//readFile()
@@ -65,5 +66,5 @@ func main() {
 	// 读取目录
 	//readDir("C:\\Users\\95736\\Desktop\\My_project\\intelligence_learn")
 	// 递归读取目录
-	recursiveReadDir("C:\\Users\\95736\\Desktop\\My_project\\intelligence_learn", 0)
+	recursiveReadDir("/Users/dawson/my_project/learnGo", 0)
 }

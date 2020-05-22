@@ -12,8 +12,8 @@ type myFuncFloat func(float64, float64) float64
 //func compute(fn func(float64 ,float64)float64) float64 {
 func compute(fn myFuncFloat) float64 {
 	/*
-		fn func(float64 ,float64)float64  Golang
-		double (*fn)(double, double)      C
+		Golang	fn func(float64 ,float64)float64
+		C 		double (*fn)(double, double)
 	*/
 	return fn(3, 4)
 }

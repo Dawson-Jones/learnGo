@@ -28,7 +28,7 @@ func funA(){
 func funB(){
 	defer func() {
 		if msg:=recover();msg != nil{
-			fmt.Println(msg, "the program is recovered")
+			fmt.Println(msg, "--------the program is recovered")
 		}
 	}()
 	fmt.Println("i am function B")

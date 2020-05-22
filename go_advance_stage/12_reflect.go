@@ -22,19 +22,19 @@ func (p Person) PrintInfo() {
 func main() {
 	p1 := Person{"Dawson", 20, "male"}
 	fmt.Printf("p1: %v, type: %T\n", p1, p1)
-	value := reflect.ValueOf(p1)
-	fmt.Printf("value: %v, type: %T\n", value, value)
-	methodValue := value.MethodByName("PrintInfo")
-	fmt.Printf("methodValue: %v, type: %T\n", methodValue, methodValue)
-	fmt.Println("methodValue-kind:", methodValue.Kind(), "-type:", methodValue.Type())
+	rfValue := reflect.ValueOf(p1)
+	fmt.Printf("value: %v, type: %T\n", rfValue, rfValue)
+	method:= rfValue.MethodByName("PrintInfo")
+	fmt.Printf("method: %v, type: %T\n", method, method)
+	fmt.Println("methodValue-kind:", method.Kind(), "-----type:", method.Type())
 	// 无参数调用
-	methodValue.Call(nil)
+	method.Call(nil)
 	// 或者
 	args := make([]reflect.Value, 0)
-	methodValue.Call(args)
+	method.Call(args)
 	// -------------
-	methodValue = value.MethodByName("Say")
-	fmt.Println(methodValue.Kind(), methodValue.Type()) // func func(string)
+	method= rfValue.MethodByName("Say")
+	fmt.Println(method.Kind(), method.Type()) // func func(string)
 	args0 := []reflect.Value{reflect.ValueOf("world"), reflect.ValueOf(1)}
-	methodValue.Call(args0)
+	method.Call(args0)
 }
