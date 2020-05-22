@@ -11,18 +11,23 @@ func useTimer(){
 	ch:=timer.C
 	fmt.Println(<-ch)
 }
+
 func timerStop()  {
 	timer := time.NewTimer(5*time.Second)
+	fmt.Println(time.Now())
 	go func() {
 		<-timer.C
-		fmt.Println("run other function")
+		fmt.Println("timer stop failed")
 	}()
+
 	time.Sleep(3*time.Second)
+	//time.Sleep(6*time.Second)
 	signal := timer.Stop()
 	if signal{
 		fmt.Println("stop timer successful")
 	}
 }
+
 func timerAfter()  {
 	ch:=time.After(3*time.Second)
 	fmt.Println(time.Now())
@@ -30,9 +35,10 @@ func timerAfter()  {
 	fmt.Println(time.Now())
 
 }
+
 func main() {
-	useTimer()
+	//useTimer()
 	timerStop()
-	// timer after 直接返回就是通道, 就是newTimer.C
-	timerAfter()
+	//timer after 直接返回就是通道, 就是newTimer.C
+	//timerAfter()
 }
