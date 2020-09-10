@@ -15,7 +15,7 @@ func main() {
 	map1["name"] = "李小花"
 	map1["age"] = 30
 	ergou := Person{
-		name: "李二狗",
+		name: "王二狗",
 		age:  38,
 	}
 	map1["friend"] = ergou

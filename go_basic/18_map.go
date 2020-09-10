@@ -53,9 +53,14 @@ func mapLiterals() {
 	}
 	fmt.Println(m)
 
+	// forRange
+	for k, v := range m {
+		fmt.Printf("%v: %v\n", k, v);
+	}
+
 }
 
 func main() {
-	mapAbout()
-	//mapLiterals()
+	//mapAbout()
+	mapLiterals()
 }

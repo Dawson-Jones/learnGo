@@ -20,12 +20,15 @@ func seeDifferent() {
 	fmt.Println(len(ch2Buf), cap(ch2Buf))     // 0,5
 }
 
+/*
+ * channel 是队列的性质
+ */
 func aSimpleEg() {
 	ch := make(chan int, 2)
 	ch <- 1
 	ch <- 2
-	fmt.Println(<-ch)
-	fmt.Println(<-ch)
+	fmt.Println(<-ch)	// 1
+	fmt.Println(<-ch)	// 2
 }
 
 func sendData(ch chan string) {

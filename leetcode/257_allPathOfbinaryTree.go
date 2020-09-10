@@ -3,11 +3,11 @@ package main
 import "strconv"
 
 func travel(vertex *TreeNode, res *[]string, curString string) {
-	if vertex==nil {
+	if vertex == nil {
 		return
 	}
 	if vertex.Left == nil && vertex.Right == nil {
-		*res = append(*res, curString + "->"+ strconv.Itoa(vertex.Val))
+		*res = append(*res, curString+"->"+strconv.Itoa(vertex.Val))
 		return
 	}
 	travel(vertex.Left, res, curString+"->"+strconv.Itoa(vertex.Val))

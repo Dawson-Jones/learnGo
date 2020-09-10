@@ -23,7 +23,6 @@ func fileWrite() {
 		log.Fatal(err)
 		return
 	}
-
 }
 
 func readDir(dirName string) {
@@ -62,9 +61,9 @@ func main() {
 	// 读取文件中的所有数据
 	//readFile()
 	// 写文件
-	//fileWrite()
+	fileWrite()
 	// 读取目录
 	//readDir("C:\\Users\\95736\\Desktop\\My_project\\intelligence_learn")
 	// 递归读取目录
-	recursiveReadDir("/Users/dawson/my_project/learnGo", 0)
+	//recursiveReadDir("/Users/dawson/my_project/learnGo", 0)
 }
