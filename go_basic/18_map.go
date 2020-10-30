@@ -55,12 +55,25 @@ func mapLiterals() {
 
 	// forRange
 	for k, v := range m {
-		fmt.Printf("%v: %v\n", k, v);
+		fmt.Printf("%v: %v\n", k, v)
+	}
+}
+
+func mapWithArray() {
+	m := make(map[int][]string)
+
+	r := []string{"hello", "world"}
+
+	for i, v := range r {
+		// 不需要判断 m[key] 是否存在， 因为已经声明了 value 是 array 类型， 所以直接 append
+		m[i] = append(m[i], v)
 	}
 
+	fmt.Println(m)
 }
 
 func main() {
 	//mapAbout()
-	mapLiterals()
+	//mapLiterals()
+	mapWithArray()
 }

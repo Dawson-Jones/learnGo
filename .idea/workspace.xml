@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7130fec2-a24f-4008-95ac-8d45bd7dc752" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo/write_mmdb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_advance_stage/14_reflect.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_relearn/array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go_relearn/variable_in_forloop_on_goroutine.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_advance_stage/11_reflect.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_advance_stage/11_reflect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_basic/18_map.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_basic/18_map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_basic/19_function_references.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_basic/19_function_references.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go_basic/29_pinic_and_recover.go" beforeDir="false" afterPath="$PROJECT_DIR$/go_basic/29_pinic_and_recover.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/129.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/129.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_package/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_package/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_package/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_package/.idea/my_package.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_package/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.go" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="tsconfig.json" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.15/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1XnWApk3HT6HDL9GaCEAmAogm1t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leetcode" />
+      <recent name="C:\Users\95736\Desktop\My_project\Go\go_advance_stage" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/demo" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/go_advance_stage" />
+      <recent name="$PROJECT_DIR$/leetcode/training" />
+      <recent name="C:\Users\95736\Desktop\My_project\Go\go_advance_stage" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build 14_reflect.go">
+    <configuration name="go build 10_default_select.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learnGo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/go_advance_stage/10_default_select.go" />
+      <package value="learngo" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 11_reflect.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learnGo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/go_advance_stage/11_reflect.go" />
+      <package value="learngo" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 12_reflect.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learnGo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/go_advance_stage/12_reflect.go" />
+      <package value="learngo" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 14_reflect.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learnGo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/go_advance_stage/14_reflect.go" />
+      <package value="learngo" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build tt.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learnGo" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/tt.go" />
+      <package value="learngo" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build 14_reflect.go" />
+        <item itemvalue="Go Build.go build tt.go" />
+        <item itemvalue="Go Build.go build 10_default_select.go" />
+        <item itemvalue="Go Build.go build 12_reflect.go" />
+        <item itemvalue="Go Build.go build 11_reflect.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7130fec2-a24f-4008-95ac-8d45bd7dc752" name="Default Changelist" comment="" />
+      <created>1581682200682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581682200682</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="696" y="497" key="#GOROOT" timestamp="1599184780920">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="696" y="497" key="#GOROOT/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1599184780920" />
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom" timestamp="1603971233745">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1750" height="377" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1599875387980" />
+    <state width="1750" height="397" key="GridCell.Tab.0.bottom/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1598345980094" />
+    <state width="639" height="378" key="GridCell.Tab.0.bottom/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1602555108554" />
+    <state width="770" height="378" key="GridCell.Tab.0.bottom/1792.0.1920.1080/0.23.1792.1097@1792.0.1920.1080" timestamp="1602232070418" />
+    <state width="1750" height="377" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1599823668857" />
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1603971233745" />
+    <state width="1878" height="375" key="GridCell.Tab.0.center" timestamp="1603971233744">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1750" height="377" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1599875387979" />
+    <state width="1750" height="397" key="GridCell.Tab.0.center/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1598345980093" />
+    <state width="639" height="378" key="GridCell.Tab.0.center/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1602555108553" />
+    <state width="770" height="378" key="GridCell.Tab.0.center/1792.0.1920.1080/0.23.1792.1097@1792.0.1920.1080" timestamp="1602232070416" />
+    <state width="1750" height="377" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1599823668857" />
+    <state width="1878" height="375" key="GridCell.Tab.0.center/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1603971233744" />
+    <state width="1878" height="375" key="GridCell.Tab.0.left" timestamp="1603971233744">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1750" height="377" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1599875387978" />
+    <state width="1750" height="397" key="GridCell.Tab.0.left/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1598345980091" />
+    <state width="639" height="378" key="GridCell.Tab.0.left/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1602555108552" />
+    <state width="770" height="378" key="GridCell.Tab.0.left/1792.0.1920.1080/0.23.1792.1097@1792.0.1920.1080" timestamp="1602232070415" />
+    <state width="1750" height="377" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1599823668857" />
+    <state width="1878" height="375" key="GridCell.Tab.0.left/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1603971233744" />
+    <state width="1878" height="375" key="GridCell.Tab.0.right" timestamp="1603971233745">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1750" height="377" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1599875387979" />
+    <state width="1750" height="397" key="GridCell.Tab.0.right/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1598345980094" />
+    <state width="639" height="378" key="GridCell.Tab.0.right/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1602555108554" />
+    <state width="770" height="378" key="GridCell.Tab.0.right/1792.0.1920.1080/0.23.1792.1097@1792.0.1920.1080" timestamp="1602232070417" />
+    <state width="1750" height="377" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1599823668857" />
+    <state width="1878" height="375" key="GridCell.Tab.0.right/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1603971233745" />
+    <state x="2277" y="190" key="SettingsEditor" timestamp="1599821701947">
+      <screen x="1792" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2277" y="190" key="SettingsEditor/1792.23.1920.1057/0.23.1792.1097@1792.23.1920.1057" timestamp="1599821701947" />
+    <state x="898" y="315" width="759" height="710" key="find.popup" timestamp="1598320780576">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="898" y="315" width="759" height="710" key="find.popup/1792.0.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1598320780576" />
+  </component>
+</project>

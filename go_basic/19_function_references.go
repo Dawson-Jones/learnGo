@@ -9,13 +9,13 @@ import (
 
 type myFuncFloat func(float64, float64) float64
 
-//func compute(fn func(float64 ,float64)float64) float64 {
-func compute(fn myFuncFloat) float64 {
+func compute(fn func(float64 ,float64) float64) int {
+//func compute(fn myFuncFloat) float64 {
 	/*
 		Golang	fn func(float64 ,float64)float64
 		C 		double (*fn)(double, double)
 	*/
-	return fn(3, 4)
+	return int(fn(3, 4))
 }
 
 //type myFuncInt func(int) int
