@@ -14,7 +14,8 @@ func (e *areaError) Error() string {
 	return fmt.Sprintf("error: %s", (*e).msg)
 }
 
-func circleArea(radius float64) (float64, error) { // 要求返回的是一个error类型的接口, 这个类型的接口就是要实现Error()方法且返回值为string
+// 要求返回的是一个error类型的接口, 这个类型的接口就是要实现Error()方法且返回值为string
+func circleArea(radius float64) (float64, error) {
 	if radius < 0 {
 		return 0, &areaError{
 			msg:    "radius is not positive.",
@@ -30,7 +31,7 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 		// 现在得到的err是一个接口, 通过断言得到具体的 接口实例结构
-		if errDetail, ok := err.(*areaError);ok{
+		if errDetail, ok := err.(*areaError); ok {
 			//fmt.Printf("errDetail的类型: %T", errDetail) // *main.areaError-1
 			fmt.Println((*errDetail).radius)
 		}

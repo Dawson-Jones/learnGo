@@ -51,7 +51,6 @@ func main() {
 	//aboutChanel()
 
 	// 使用chanel通信
-	//communicateWithChanel1()
-	communicateWithChanel2()
-
+	communicateWithChanel1()
+	//communicateWithChanel2()
 }

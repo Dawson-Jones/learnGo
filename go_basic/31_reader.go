@@ -68,7 +68,6 @@ func writeData() {
 	HandleErr(err)
 	fmt.Println(n)
 	// 没有关闭之前, 第二次写的不会覆盖第一次写的, 而是追加
-
 }
 
 func copyFile(src string, dest string) (int, error) {

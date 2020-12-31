@@ -26,7 +26,7 @@ func knowAboutArray() {
 
 func spliceOperation() {
 	// 切片操作
-	primes := [6]int{2, 3, 5, 7, 11, 13}
+	primes := [6]int{2, 3, 5, 7, 11, 13} // len 7, cap 12
 	fmt.Println(primes)
 	newPrimes := primes[1:4]
 	fmt.Println(newPrimes)
@@ -49,5 +49,4 @@ func spliceOperation() {
 func main() {
 	knowAboutArray()
 	spliceOperation()
-
 }
